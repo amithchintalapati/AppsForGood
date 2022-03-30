@@ -8,12 +8,13 @@
     tools:context=".AccountActivity">
 
     <TextView
-        android:id="@+id/welcomeTextStr"
+        android:id="@+id/welcomeLabelStr"
         android:layout_width="218dp"
         android:layout_height="65dp"
         android:layout_marginTop="112dp"
         android:layout_marginBottom="762dp"
-        android:text="Welcome!"
+        android:text="@string/welcomeLabelStr"
+        android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="48sp"
         android:textStyle="bold"
@@ -23,15 +24,132 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/enterInfoTextStr"
+        android:id="@+id/enterInfoLabelStr"
         android:layout_width="244dp"
         android:layout_height="100dp"
         android:layout_marginTop="57dp"
         android:layout_marginBottom="652dp"
-        android:text="Please enter the information below to create a new account"
+        android:text="@string/enterInfoLabelStr"
+        android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeTextStr" />
+        app:layout_constraintTop_toBottomOf="@+id/welcomeLabelStr"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <TextView
+        android:id="@+id/emailLabelStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="460dp"
+        android:layout_marginBottom="380dp"
+        android:text="Email"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameLabelStr"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/nameLabelStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="413dp"
+        android:layout_marginEnd="451dp"
+        android:layout_marginBottom="60dp"
+        android:text="Name"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/emailLabelStr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/phoneNumberLabelStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="266dp"
+        android:text="Phone Number"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailLabelStr" />
+
+    <Button
+        android:id="@+id/toSetPasswordButtonStr"
+        android:layout_width="203dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="198dp"
+        android:text="Next"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <EditText
+        android:id="@+id/enterNameTextStr"
+        android:layout_width="331dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="166dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter your name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintStart_toEndOf="@+id/nameLabelStr"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562" />
+
+    <EditText
+        android:id="@+id/enterEmailTextStr"
+        android:layout_width="322dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="56dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Enter your email"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/phoneNumberLabelStr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/emailLabelStr"
+        app:layout_constraintTop_toBottomOf="@+id/enterNameTextStr" />
+
+    <EditText
+        android:id="@+id/enterPhoneNumberTextStr"
+        android:layout_width="245dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="67dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Enter you phone number"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/toSetPasswordButtonStr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phoneNumberLabelStr"
+        app:layout_constraintTop_toBottomOf="@+id/enterEmailTextStr" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
