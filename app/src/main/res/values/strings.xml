@@ -17,7 +17,11 @@
     <string name="enterEmailTextStr">Enter your email</string>
     <string name="enterPhoneNumberTextStr">Enter your phone number</string>
 
-
-
+    //activity_create_password strings
+    <string name="reEnterPasswordLabelStr">Re-enter Your Password:</string>
+    <string name="enterPasswordOneLabelStr">Enter Your Password:</string>
+    <string name="enterPassswordTextStr">Enter Your Password</string>
+    <string name="reEnterPasswordTextStr">Enter Your Password</string>
+    <string name="welcomeCreatePasswordLabelStr">Please Enter Your Password Below</string>
 
 </resources>
