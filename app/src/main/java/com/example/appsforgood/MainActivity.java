@@ -16,11 +16,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickSignUp(View v) {
-
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Sign Up Button", Toast.LENGTH_LONG);
+        toast.show();
         Intent intent = new Intent(this, SignUpActivity.class);
-
-
+        //intent.putExtra("HelloStr", "Hello");
+        startActivity(intent);
     }
 
 }
