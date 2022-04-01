@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SignUpActivity.class);
         //intent.putExtra("HelloStr", "Hello");
         startActivity(intent);
+
     }
 
 }

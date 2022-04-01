@@ -6,7 +6,7 @@ public class Account {
 	private String email;
 	private String password;
 	
-	public Account(String name, String phoneNumber, String email) {
+	public Account(String name, String phoneNumber, String email, String password) {
 		this.name = name;
 		this.phoneNumber = phoneNumber;
 		this.email = email;
