@@ -3,7 +3,6 @@
     <string name="welcomeLabelStr">Welcome!</string>
     <string name="signInButtonStr">Sign In</string>
     <string name="signUpButtonStr">Sign Up</string>
-
     <string name="enter_password">Enter password:</string>
     <string name="enter_email">Enter email:</string>
     <string name="sign_in">Sign In:</string>
@@ -17,5 +16,13 @@
     <string name="enterNameTextStr">Enter your name</string>
     <string name="enterEmailTextStr">Enter your email</string>
     <string name="enterPhoneNumberTextStr">Enter your phone number</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="email_hint">email</string>
+    <string name="enter_password_label">Enter Password</string>
+    <string name="password_hint">Password</string>
+    <string name="enter_email_label">Enter Email</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="password_hint1">password</string>
+
 
 </resources>
