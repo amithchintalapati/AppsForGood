@@ -3,16 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_account.xml" value="0.264" />
-        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_choose_to_help.xml" value="0.264" />
-        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_create_password.xml" value="0.264" />
         <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_main_screen.xml" value="0.4" />
-        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_make_problem.xml" value="0.12" />
-        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
-        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_account.xml" value="0.15" />
+        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_choose_to_help.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_create_password.xml" value="0.15" />
         <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_in.xml" value="0.152" />
+        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_main_screen.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_make_problem.xml" value="0.10847628657921292" />
+        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_in.xml" value="0.176" />
         <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
       </map>
     </option>
