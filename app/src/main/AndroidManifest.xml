@@ -13,6 +13,9 @@
             android:name=".MakeProblem"
             android:exported="false" />
         <activity
+            android:name=".CreatePasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
