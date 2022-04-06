@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignIn">
@@ -29,6 +30,7 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="101dp"
         android:layout_marginBottom="14dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
@@ -36,8 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernameLabel"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:autofillHints="" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView3"
@@ -62,6 +63,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="99dp"
         android:layout_marginBottom="307dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPassword"
         android:minHeight="48dp"
@@ -69,8 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:autofillHints="" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/usernameLabel"

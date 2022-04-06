@@ -18,4 +18,11 @@
     <string name="enterEmailTextStr">Enter your email</string>
     <string name="enterPhoneNumberTextStr">Enter your phone number</string>
 
+    //Make Problem
+    <string name="makeProblemStr">Post a Problem</string>
+    <string name="makeProblemShortDescription">Short Description:</string>
+    <string name="makeProblemShortDescriptionHint">Type a short description of the problem</string>
+
+    <string name="makeProblemLongDescription">Full Description:</string>
+    <string name="makeProblemLongDescriptionHint">Type the full description of the problem</string>
 </resources>
