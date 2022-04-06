@@ -26,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:onClick="clickSignIn"
         android:text="@string/signInButtonStr"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseToHelp">
+
+    <TextView
+        android:id="@+id/problemDescriptionLabelStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="868dp"
+        android:text="@string/problemDescriptionLabelStr"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/refugeeNameLabelStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="738dp"
+        android:text="@string/refugeeNameLabelStr"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/refugeeEmailLabelStr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/refugeeEmailLabelStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="739dp"
+        android:text="@string/refugeeEmailLabelStr"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/refugeePhoneNumberLabelStr"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/refugeeNameLabelStr"
+        app:layout_constraintTop_toBottomOf="@+id/problemDescriptionLabelStr" />
+
+    <TextView
+        android:id="@+id/refugeePhoneNumberLabelStr"
+        android:layout_width="176dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="705dp"
+        android:text="@string/refugeePhoneNumberLabelStr"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/refugeeEmailLabelStr"
+        app:layout_constraintTop_toBottomOf="@+id/problemDescriptionLabelStr" />
+
+    <TextView
+        android:id="@+id/longerProblemDescriptionLabelStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:layout_marginBottom="496dp"
+        android:text="@string/longerProblemDescriptionLabelStr"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/refugeeEmailLabelStr" />
+
+    <Button
+        android:id="@+id/exitButtonStr"
+        android:layout_width="151dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="clickExit"
+        android:text="@string/exitButtonStr"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/canHelpButtonStr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/longerProblemDescriptionLabelStr" />
+
+    <Button
+        android:id="@+id/canHelpButtonStr"
+        android:layout_width="141dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/canHelpButtonStr"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/exitButtonStr"
+        app:layout_constraintTop_toBottomOf="@+id/longerProblemDescriptionLabelStr" />
+</androidx.constraintlayout.widget.ConstraintLayout>

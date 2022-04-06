@@ -18,7 +18,16 @@ public class MainActivity extends AppCompatActivity {
     public void clickSignUp(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Sign Up Button", Toast.LENGTH_LONG);
         toast.show();
-        Intent intent = new Intent(this, SignUpActivity.class);
+        Intent intent = new Intent(this, AccountActivity.class);
+        //intent.putExtra("HelloStr", "Hello");
+        startActivity(intent);
+
+    }
+
+    public void clickSignIn(View v) {
+        Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Sign In Button", Toast.LENGTH_LONG);
+        toast.show();
+        Intent intent = new Intent(this, SignIn.class);
         //intent.putExtra("HelloStr", "Hello");
         startActivity(intent);
     }
