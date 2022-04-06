@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,8 +17,9 @@ public class AccountActivity extends AppCompatActivity {
         setContentView(R.layout.activity_account);
     }
 
-    private void toPwScreen() {
+    public void toPwScreen(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Moving to create password screen", Toast.LENGTH_LONG);
+        toast.show();
         Intent intent = new Intent(this, CreatePasswordActivity.class);
         startActivity(intent);
     }

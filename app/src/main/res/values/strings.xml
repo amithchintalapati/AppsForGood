@@ -33,6 +33,7 @@
     <string name="enterPassswordTextStr">Enter Your Password</string>
     <string name="reEnterPasswordTextStr">Enter Your Password</string>
     <string name="welcomeCreatePasswordLabelStr">Please Enter Your Password Below</string>
+    <string name="confirmPasswordButtonStr">Confirm</string>
 
     // Master's Strings
     <string name="sign_in_label">Sign In</string>
@@ -42,6 +43,21 @@
     <string name="enter_email_label">Enter Email</string>
     <string name="sign_in_button">Sign In</string>
     <string name="password_hint1">password</string>
+    
+    //Main Screen Strings
+    <string name="createTasklabelStr">Click the + to craete a task!</string>
+    <string name="addSymbolButtonStr">+</string>
+
+    //ChooseToHelp Strings
+    <string name="problemDescriptionLabelStr">Problem Description</string>
+    <string name="refugeeNameLabelStr">Clients name</string>
+    <string name="refugeeEmailLabelStr">Clients email</string>
+    <string name="refugeePhoneNumberLabelStr">Clients phone number</string>
+    <string name="longerProblemDescriptionLabelStr">Longer problem description</string>
+    <string name="exitButtonStr">Exit</string>
+    <string name="canHelpButtonStr">I can help!</string>
+
+
 
 
 

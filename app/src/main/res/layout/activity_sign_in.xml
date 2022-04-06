@@ -114,6 +114,7 @@
         android:layout_marginTop="51dp"
         android:layout_marginEnd="255dp"
         android:layout_marginBottom="244dp"
+        android:onClick="clickActualSignIn"
         android:text="@string/sign_in_button"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
