@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignIn">
@@ -28,7 +29,8 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="101dp"
-        android:layout_marginBottom="307dp"
+        android:layout_marginBottom="14dp"
+
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/password_hint1"
@@ -42,8 +44,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordLabel"
-        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+        app:layout_constraintTop_toBottomOf="@+id/usernameLabel"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 
     <TextView
         android:id="@+id/passwordLabel"
@@ -65,10 +69,12 @@
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="101dp"
-        android:layout_marginBottom="14dp"
+
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="307dp"
+
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/email_hint"
@@ -80,8 +86,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernameLabel"
-        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/usernameLabel"

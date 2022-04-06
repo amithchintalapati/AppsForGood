@@ -17,6 +17,15 @@
     <string name="enterEmailTextStr">Enter your email</string>
     <string name="enterPhoneNumberTextStr">Enter your phone number</string>
 
+
+    //Make Problem
+    <string name="makeProblemStr">Post a Problem</string>
+    <string name="makeProblemShortDescription">Short Description:</string>
+    <string name="makeProblemShortDescriptionHint">Type a short description of the problem</string>
+
+    <string name="makeProblemLongDescription">Full Description:</string>
+    <string name="makeProblemLongDescriptionHint">Type the full description of the problem</string>
+
     // Justin's Strings
     //activity_create_password strings
     <string name="reEnterPasswordLabelStr">Re-enter Your Password:</string>
@@ -33,6 +42,7 @@
     <string name="enter_email_label">Enter Email</string>
     <string name="sign_in_button">Sign In</string>
     <string name="password_hint1">password</string>
+
 
 
 </resources>
