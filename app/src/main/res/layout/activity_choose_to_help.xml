@@ -78,7 +78,7 @@
         app:layout_constraintTop_toBottomOf="@+id/refugeeEmailLabelStr" />
 
     <Button
-        android:id="@+id/exitButtonStr"
+        android:id="@+id/exitButtonChooseToHelp"
         android:layout_width="151dp"
         android:layout_height="94dp"
         android:layout_marginStart="16dp"
@@ -105,6 +105,6 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/exitButtonStr"
+        app:layout_constraintStart_toEndOf="@+id/exitButtonChooseToHelp"
         app:layout_constraintTop_toBottomOf="@+id/longerProblemDescriptionLabelStr" />
 </androidx.constraintlayout.widget.ConstraintLayout>

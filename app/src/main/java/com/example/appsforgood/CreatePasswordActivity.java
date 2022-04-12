@@ -21,6 +21,13 @@ public class CreatePasswordActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainScreen.class);
         //intent.putExtra("HelloStr", "Hello");
         startActivity(intent);
+    }
+    public void clickExit(View v) {
+        Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Exit Button", Toast.LENGTH_LONG);
+        toast.show();
+        Intent intent = new Intent(this, AccountActivity.class);
+        //intent.putExtra("HelloStr", "Hello");
+        startActivity(intent);
 
     }
 }
