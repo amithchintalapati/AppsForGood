@@ -18,9 +18,16 @@ public class SignIn extends AppCompatActivity {
         setContentView(R.layout.activity_sign_in);
     }
     public void clickActualSignIn(View v) {
-        Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Sign In Button", Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Sign In Numero Dos Button", Toast.LENGTH_LONG);
         toast.show();
         Intent intent = new Intent(this, MainScreen.class);
+        //intent.putExtra("HelloStr", "Hello");
+        startActivity(intent);
+    }
+    public void clickExit(View v) {
+        Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Exit Button", Toast.LENGTH_LONG);
+        toast.show();
+        Intent intent = new Intent(this, MainActivity.class);
         //intent.putExtra("HelloStr", "Hello");
         startActivity(intent);
 

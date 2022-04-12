@@ -45,8 +45,17 @@
     <string name="password_hint1">password</string>
     
     //Main Screen Strings
-    <string name="createTasklabelStr">Click the + to craete a task!</string>
+    <string name="createTasklabelStr">Click the + to create a task!</string>
     <string name="addSymbolButtonStr">+</string>
+    <string name="taskButtonOneStr">Task 1</string>
+    <string name="taskButtonTwoStr">Task 2</string>
+    <string name="taskButtonThreeStr">Task 3</string>
+    <string name="taskButtonFourStr">Task 4</string>
+    <string name="toHomeScreenButtonStr">Home Screen</string>
+    <string name="testStatusChangeLabelStr">This will hopefully change</string>
+    <string name="testButtonChange">Change the text</string>
+
+
 
     //ChooseToHelp Strings
     <string name="problemDescriptionLabelStr">Problem Description</string>

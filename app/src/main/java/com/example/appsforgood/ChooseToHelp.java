@@ -21,6 +21,13 @@ public class ChooseToHelp extends AppCompatActivity {
         Intent intent = new Intent(this, MainScreen.class);
         //intent.putExtra("HelloStr", "Hello");
         startActivity(intent);
+    }
 
+    public void clickChooseToHelp(View v) {
+        Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the \"Choose to Help\" Button", Toast.LENGTH_LONG);
+        toast.show();
+        Intent intent = new Intent(this, MainScreen.class);
+        //intent.putExtra("HelloStr", "Hello");
+        startActivity(intent);
     }
 }
