@@ -12,7 +12,6 @@ import android.widget.Toast;
 public class MainScreen extends AppCompatActivity {
 
     //Data
-    Button changeTextButton;
     TextView wordChange;
 
     @Override
@@ -25,8 +24,9 @@ public class MainScreen extends AppCompatActivity {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Change Button", Toast.LENGTH_LONG);
         toast.show();
         wordChange = (TextView)findViewById(R.id.testingChangingStatusLabelStr);
-        wordChange.setText("it changes lfg");
+        wordChange.setText("it changes");
     }
+
     public void createTaskClick(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Create Button", Toast.LENGTH_LONG);
         toast.show();

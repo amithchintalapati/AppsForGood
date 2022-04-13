@@ -15,6 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="@string/welcomeLabelStr"
+        android:textColor="@color/purple_200"
+        android:textColorHighlight="#BA5959"
         android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +38,8 @@
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeString" />
+        app:layout_constraintTop_toBottomOf="@+id/welcomeString"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/signUpButton"
@@ -44,7 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:background="#752D2D"
-        android:backgroundTint="#F16363"
+        android:backgroundTint="#D63131"
+        android:backgroundTintMode="src_over"
         android:onClick="clickSignUp"
         android:text="@string/signUpButtonStr"
         android:textSize="48sp"
