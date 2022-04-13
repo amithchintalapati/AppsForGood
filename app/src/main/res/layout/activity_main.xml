@@ -5,6 +5,8 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#DEECF2"
     tools:context=".MainActivity">
 
     <TextView
@@ -26,8 +28,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#1F2C33"
         android:onClick="clickSignIn"
         android:text="@string/signInButtonStr"
+        android:textColor="#FFFFFF"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +43,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:background="#752D2D"
+        android:backgroundTint="#F16363"
         android:onClick="clickSignUp"
         android:text="@string/signUpButtonStr"
         android:textSize="48sp"
