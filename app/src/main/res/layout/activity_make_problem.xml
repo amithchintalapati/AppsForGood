@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DEECF2"
-    android:backgroundTint="#DEECF2"
+
     tools:context=".MakeProblem">
 
     <TextView
@@ -16,6 +16,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="120dp"
         android:text="@string/makeProblemLongDescription"
+        android:textColor="@color/purple_200"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleProblem" />
 
@@ -25,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/makeProblemStr"
+        android:textColor="@color/purple_200"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -38,6 +40,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:text="@string/makeProblemShortDescription"
+        android:textColor="@color/purple_200"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleProblem" />
 
@@ -51,6 +54,7 @@
         android:hint="@string/makeProblemShortDescriptionHint"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColor="@color/purple_200"
         android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -67,10 +71,25 @@
         android:hint="@string/makeProblemLongDescriptionHint"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColor="@color/purple_200"
         android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shortDescription2" />
+
+    <Button
+        android:id="@+id/cancelButtonMakeProblem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="401dp"
+        android:layout_marginBottom="37dp"
+        android:onClick="clickExit"
+        android:text="@android:string/cancel"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
