@@ -59,15 +59,17 @@
         android:minHeight="48dp"
         android:textColor="@color/textColor"
         android:textColorHint="#61000000"
+        android:textColorLink="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
 
-        app:layout_constraintHorizontal_bias="0.012"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.52"
         tools:ignore="SpeakableTextPresentCheck" />
+
 
     <TextView
         android:id="@+id/passwordLabel"
@@ -77,42 +79,56 @@
         android:layout_marginEnd="209dp"
         android:layout_marginBottom="1dp"
         android:text="@string/enter_password_label"
-        android:textColor="@color/textColor"
+        android:textColor="@color/purple_200"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editEmailAdressTextStr"
-        app:layout_constraintVertical_bias="0.855" />
+        app:layout_constraintVertical_bias="0.88" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editEmailAdressTextStr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="101dp"
-        android:layout_marginBottom="14dp"
+
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="307dp"
 
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/password_hint1"
-        android:inputType="textPassword"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
         android:minHeight="48dp"
-        android:textColor="@color/textColor"
-        android:textColorHighlight="#000000"
+        android:textColor="@color/purple_200"
         android:textColorHint="#61000000"
-        android:textColorLink="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
 
+        app:layout_constraintHorizontal_bias="0.012"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernameLabel"
-        app:layout_constraintVertical_bias="0.441"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/usernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/enter_email_label"
+        android:textColor="@color/purple_200"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editEmailAdressTextStr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signInLabel" />
 
     <Button
         android:id="@+id/signInButtonStr"
@@ -127,9 +143,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.373"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button

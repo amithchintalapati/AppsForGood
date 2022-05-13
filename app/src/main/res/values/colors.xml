@@ -9,4 +9,21 @@
     <color name="irrelevantColor3">#d49a89</color>
     <color name="irrelevantColor4">#E3B5A8</color>
     <color name="buttonTextColor">#EFE8DF</color>
+
+    <color name="dark_blue_1">#316B89</color>
+    <color name="dark_blue_2">#316B89</color>
+    <color name="dark_blue_3">#316B89</color>
+    <color name="big_yellow">#FFF38D</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#DEECF2</color>
+
+    <color name="purple_200">#183C4E</color>
+    <color name="purple_500">#316B89</color>
+    <color name="purple_700">#316B89</color>
+    <color name="teal_200">#FFFFFF</color>
+    <color name="teal_700">#FFFFFF</color>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
 </resources>
