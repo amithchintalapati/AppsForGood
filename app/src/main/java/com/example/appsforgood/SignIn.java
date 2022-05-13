@@ -20,7 +20,7 @@ public class SignIn extends AppCompatActivity {
     public void clickActualSignIn(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Sign In Button", Toast.LENGTH_LONG);
         toast.show();
-        Intent intent = new Intent(this, MainScreen.class);
+        Intent intent = new Intent(this, Prob_List.class);
         //intent.putExtra("HelloStr", "Hello");
         startActivity(intent);
 

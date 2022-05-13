@@ -43,7 +43,7 @@
     <string name="enter_email_label">Enter Email</string>
     <string name="sign_in_button">Sign In</string>
     <string name="password_hint1">password</string>
-    
+
     //Main Screen Strings
     <string name="createTasklabelStr">Click the + to craete a task!</string>
     <string name="addSymbolButtonStr">+</string>
@@ -56,9 +56,6 @@
     <string name="longerProblemDescriptionLabelStr">Longer problem description</string>
     <string name="exitButtonStr">Exit</string>
     <string name="canHelpButtonStr">I can help!</string>
-
-
-
 
 
 </resources>

@@ -5,6 +5,8 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DEECF2"
+    android:backgroundTint="#DEECF2"
     tools:context=".MainActivity">
 
     <TextView
@@ -26,6 +28,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:background="#600F0F"
+        android:backgroundTint="#316B89"
         android:onClick="clickSignIn"
         android:text="@string/signInButtonStr"
         android:textSize="48sp"

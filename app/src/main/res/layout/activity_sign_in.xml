@@ -5,6 +5,8 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DEECF2"
+    android:backgroundTint="#DEECF2"
     tools:context=".SignIn">
 
     <TextView
@@ -54,16 +56,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="58dp"
-        android:layout_marginTop="22dp"
         android:layout_marginEnd="209dp"
         android:layout_marginBottom="1dp"
         android:text="@string/enter_password_label"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editEmailAdressTextStr" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editEmailAdressTextStr"
@@ -73,7 +73,7 @@
         android:layout_marginStart="103dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="99dp"
-        android:layout_marginBottom="307dp"
+        android:layout_marginBottom="220dp"
 
         android:autofillHints=""
         android:ems="10"
@@ -84,7 +84,7 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/passwordLabel"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.012"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toBottomOf="@+id/textView3"
@@ -124,5 +124,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         app:layout_constraintVertical_bias="0.373"
         tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="147dp"
+        android:layout_height="157dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/afg_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
