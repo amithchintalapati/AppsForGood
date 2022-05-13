@@ -3,11 +3,17 @@ package com.example.appsforgood;
 public class Problem {
 	private Account person;
 	private String task;
-	private String status;
-	public Problem(Account person, String task, String status) {
-		this.person = person;
+	private String description;
+	private int priority;
+
+	public Problem(){
+
+	}
+
+	public Problem(String task, String description, int priority) {
 		this.task = task;
-		this.status = status;
+		this.description = description;
+		this.priority = priority;
 	}
 	
 	public void setAccount(Account person) {
@@ -26,13 +32,19 @@ public class Problem {
 		return task;
 	}
 	
-	public void setStatus(String status) {
-		this.status = status;
+	public void setPriority(int priority) {
+		this.priority = priority;
 	}
 	
-	public String getStatus() {
-		return status;
+	public int getPriority() {
+		return priority;
 	}
-	
 
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
 }
