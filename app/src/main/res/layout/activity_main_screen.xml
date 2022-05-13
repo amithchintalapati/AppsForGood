@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#DEECF2"
+        android:backgroundTint="@color/backgroundColor"
         android:onClick="changesStatus"
         tools:context=".MainScreen">
 
@@ -22,7 +23,7 @@
             android:layout_marginStart="256dp"
             android:layout_marginEnd="38dp"
             android:text="@string/createTasklabelStr"
-            android:textColor="@color/purple_200"
+            android:textColor="@color/textColor"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="@+id/addTaskButton"
             app:layout_constraintEnd_toStartOf="@+id/addTaskButton"
@@ -102,7 +103,7 @@
             android:layout_width="220dp"
             android:layout_height="118dp"
             android:onClick="clickHomeButton"
-            android:text="@string/toHomeScreenButtonStr"
+            android:text="@string/logOutButtonStr"
             android:textSize="34sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -115,7 +116,7 @@
             android:layout_marginTop="152dp"
             android:layout_marginEnd="104dp"
             android:text="@string/testStatusChangeLabelStr"
-            android:textColor="@color/purple_200"
+            android:textColor="@color/textColor"
             android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
