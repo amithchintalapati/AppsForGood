@@ -10,9 +10,11 @@
         android:id="@+id/probListRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="@color/backgroundColor"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp" />
-    
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/button_add_prob"
         android:layout_width="wrap_content"

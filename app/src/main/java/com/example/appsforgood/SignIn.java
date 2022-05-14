@@ -59,7 +59,7 @@ public class SignIn extends AppCompatActivity {
                             FirebaseUser user = signInAuth.getCurrentUser();
                             updateUI(user);
 
-                            Intent intent = new Intent(SignIn.this, MainScreen.class);
+                            Intent intent = new Intent(SignIn.this, Prob_List.class);
                             startActivity(intent);
 
                         } else {
@@ -78,26 +78,6 @@ public class SignIn extends AppCompatActivity {
 
     }
 
-    /**
-    private void validate (String userName, String userPassword){
-        if((userName.equals("username")) && (userPassword.equals("1234"))){
-            Intent intent = new Intent(SignIn.this, MainScreen.class);
-            startActivity(intent);
-        }
-        else{
-            signInButton.setEnabled(false);
-        }
-    }
-
-    public void clickActualSignIn(View v) {
-
-        Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Sign In Numero Dos Button", Toast.LENGTH_LONG);
-        toast.show();
-        Intent intent = new Intent(this, Prob_List.class);
-        //intent.putExtra("HelloStr", "Hello");
-        startActivity(intent);
-    }
-     **/
     public void clickExit(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Exit Button", Toast.LENGTH_LONG);
         toast.show();

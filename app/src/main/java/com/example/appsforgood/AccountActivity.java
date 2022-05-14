@@ -75,7 +75,7 @@ public class AccountActivity extends AppCompatActivity {
                         Log.d(TAG, "createUserWithEmail:success");
                         FirebaseUser user = fbAuth.getCurrentUser();
                         updateUI(user);
-                        Intent intent = new Intent(AccountActivity.this, MainScreen.class);
+                        Intent intent = new Intent(AccountActivity.this, Prob_List.class);
                         startActivity(intent);
                     } else {
                         // If sign in fails, display a message to the user.
@@ -88,12 +88,7 @@ public class AccountActivity extends AppCompatActivity {
             });
     }
 
-    public void toPwScreen(View v) {
-        Toast toast = Toast.makeText(getApplicationContext(), "Moving to create password screen", Toast.LENGTH_LONG);
-        toast.show();
-        Intent intent = new Intent(this, CreatePasswordActivity.class);
-        startActivity(intent);
-    }
+
     public void clickExit(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Exit Button", Toast.LENGTH_LONG);
         toast.show();

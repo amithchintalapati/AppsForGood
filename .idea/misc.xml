@@ -3,35 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-
+        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_account.xml" value="0.264" />
+        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_choose_to_help.xml" value="0.25" />
+        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_create_password.xml" value="0.264" />
         <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.193" />
-        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.193" />
-        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.193" />
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.193" />
-        <entry key="app/src/main/res/drawable/ic_save.xml" value="0.193" />
-        <entry key="app/src/main/res/layout/activity_account.xml" value="0.21373291015625004" />
-        <entry key="app/src/main/res/layout/activity_choose_to_help.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/activity_create_password.xml" value="0.15520833333333334" />
-        <entry key="app/src/main/res/layout/activity_first.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/activity_login_test.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/activity_main_screen.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/activity_make_problem.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/activity_new_prob.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_pop_up_probs.xml" value="0.25427350427350426" />
-        <entry key="app/src/main/res/layout/activity_prob_list.xml" value="0.11581196581196582" />
-        <entry key="app/src/main/res/layout/activity_problem_list.xml" value="0.3070652173913043" />
-        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.21877104847143725" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/card.xml" value="0.25427350427350426" />
-        <entry key="app/src/main/res/layout/dialog.xml" value="0.25427350427350426" />
-        <entry key="app/src/main/res/layout/item.xml" value="0.30117753623188404" />
-        <entry key="app/src/main/res/layout/prob_item.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/problem_item.xml" value="0.1838768115942029" />
-        <entry key="app/src/main/res/menu/new_prob_menu.xml" value="0.24145299145299146" />
-
+        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_main_screen.xml" value="0.264" />
+        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_make_problem.xml" value="0.264" />
+        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
+        <entry key="..\:/Users/Busti/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_in.xml" value="0.152" />
+        <entry key="..\:/Users/cncai/AndroidStudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_account.xml" value="0.22" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_choose_to_help.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_create_password.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_main.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_main_screen.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_make_problem.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_new_prob.xml" value="0.22" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_prob_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_in.xml" value="0.13999999999999999" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/activity_sign_up.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/cncai/StudioProjects/AppsForGood/app/src/main/res/layout/prob_item.xml" value="0.14407866609662248" />
       </map>
     </option>
   </component>
@@ -40,12 +33,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.15070921985815602" />
-      </ProjectState>
-    </option>
   </component>
 </project>
