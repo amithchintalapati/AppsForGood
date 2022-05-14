@@ -51,7 +51,7 @@
     <string name="taskButtonTwoStr">Task 2</string>
     <string name="taskButtonThreeStr">Task 3</string>
     <string name="taskButtonFourStr">Task 4</string>
-    <string name="toHomeScreenButtonStr">Home Screen</string>
+    <string name="logOutButtonStr">Log Out</string>
     <string name="testStatusChangeLabelStr">This will hopefully change</string>
     <string name="testButtonChange">Change the text</string>
 

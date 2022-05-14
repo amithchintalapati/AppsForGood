@@ -5,10 +5,8 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="#FFFFFF"
-
-    android:backgroundTint="#DEECF2"
+    android:backgroundTint="@color/backgroundColor"
     tools:context=".MainActivity">
 
     <TextView
@@ -17,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="@string/welcomeLabelStr"
-        android:textColor="@color/purple_200"
+        android:textColor="@color/textColor"
         android:textColorHighlight="#BA5959"
         android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,22 +23,37 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004" />
+        app:layout_constraintVertical_bias="0.09" />
+
+    <TextView
+        android:id="@+id/helpingHandWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="113dp"
+        android:text="to Helping Hand"
+        android:textColor="@color/textColor"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/signInButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeString" />
 
     <Button
         android:id="@+id/signInButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-
+        android:layout_marginTop="208dp"
         android:background="#FFFFFF"
         android:backgroundTint="#1F2C33"
-
         android:onClick="clickSignIn"
         android:text="@string/signInButtonStr"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/buttonTextColor"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeString"
         tools:ignore="TextContrastCheck" />
@@ -49,7 +62,7 @@
         android:id="@+id/signUpButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="72dp"
         android:background="#752D2D"
         android:backgroundTint="#D63131"
         android:backgroundTintMode="src_over"
@@ -57,7 +70,7 @@
         android:text="@string/signUpButtonStr"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signInButton" />
 
