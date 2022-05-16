@@ -77,7 +77,7 @@ public class SignIn extends AppCompatActivity {
     private void updateUI(FirebaseUser user){
 
     }
-
+    //Once clicked, the exit button sends the user back to the welcome screen.
     public void clickExit(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Exit Button", Toast.LENGTH_LONG);
         toast.show();

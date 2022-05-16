@@ -88,11 +88,20 @@ public class AccountActivity extends AppCompatActivity {
             });
     }
 
-
+    //When the exit button is clicked, sends the user back to the welcome screen.
     public void clickExit(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Exit Button", Toast.LENGTH_LONG);
         toast.show();
         Intent intent = new Intent(this, MainActivity.class);
+        //intent.putExtra("HelloStr", "Hello");
+        startActivity(intent);
+
+    }
+    //When the next button is clicked, sends the user to the main screen with all the tasks displayed.
+    public void clickNext(View v) {
+        Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Next Button", Toast.LENGTH_LONG);
+        toast.show();
+        Intent intent = new Intent(this, Prob_List.class);
         //intent.putExtra("HelloStr", "Hello");
         startActivity(intent);
 

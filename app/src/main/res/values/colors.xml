@@ -1,26 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
+    //color of the text throughout the app
     <color name="textColor">#8FA277</color>
+    //color of the button's background throughout the app
     <color name="buttonColor">#557571</color>
+    //color of the background of the app
     <color name="backgroundColor">#EFE8DA</color>
+    //not used
     <color name="textEditColor">#ce7d5d</color>
+    //not used
     <color name="irrelevantColor3">#d49a89</color>
+    //not used
     <color name="irrelevantColor4">#E3B5A8</color>
+    //color of the text on the button throughout the app
     <color name="buttonTextColor">#EFE8DF</color>
 
+    //not used
     <color name="dark_blue_1">#316B89</color>
+    //not used
     <color name="dark_blue_2">#316B89</color>
+    //not used
     <color name="dark_blue_3">#316B89</color>
+    //not used
     <color name="big_yellow">#FFF38D</color>
+    //not used
     <color name="teal_700">#FF018786</color>
+    //not used
     <color name="black">#FF000000</color>
+    //not used
     <color name="white">#DEECF2</color>
-
+    //not used
     <color name="purple_200">#183C4E</color>
+    //not used
     <color name="purple_500">#316B89</color>
+    //not used
     <color name="purple_700">#316B89</color>
+    //not used
     <color name="teal_200">#FFFFFF</color>
 
 </resources>
