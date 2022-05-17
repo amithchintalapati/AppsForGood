@@ -1,13 +1,14 @@
 <resources>
+    //strings for the welcome screen, MainActivity
     <string name="app_name">AppsForGood</string>
     <string name="welcomeLabelStr">Welcome!</string>
     <string name="signInButtonStr">Sign In</string>
     <string name="signUpButtonStr">Sign Up</string>
-    <string name="enter_password">Enter password:</string>
-    <string name="enter_email">Enter email:</string>
-    <string name="sign_in">Sign In:</string>
+    <string name="helpingHandWelcome">to Helping Hand</string>
+
 
     //activity_account strings
+    <string name="exitButtonSignInStr">Exit</string>
     <string name="enterInfoLabelStr">Please enter the information below to create a new account</string>
     <string name="emailLabelStr">Email</string>
     <string name="nameLabelStr">Name</string>
@@ -16,26 +17,12 @@
     <string name="enterNameTextStr">Enter your name</string>
     <string name="enterEmailTextStr">Enter your email</string>
     <string name="enterPhoneNumberTextStr">Enter your phone number</string>
+    <string name="enter_password">Enter password:</string>
+    <string name="enter_email">Enter email:</string>
+    <string name="sign_in">Sign In:</string>
 
 
-    //Make Problem
-    <string name="makeProblemStr">Post a Problem</string>
-    <string name="makeProblemShortDescription">Short Description:</string>
-    <string name="makeProblemShortDescriptionHint">Type a short description of the problem</string>
-
-    <string name="makeProblemLongDescription">Full Description:</string>
-    <string name="makeProblemLongDescriptionHint">Type the full description of the problem</string>
-
-    // Justin's Strings
-    //activity_create_password strings
-    <string name="reEnterPasswordLabelStr">Re-enter Your Password:</string>
-    <string name="enterPasswordOneLabelStr">Enter Your Password:</string>
-    <string name="enterPassswordTextStr">Enter Your Password</string>
-    <string name="reEnterPasswordTextStr">Enter Your Password</string>
-    <string name="welcomeCreatePasswordLabelStr">Please Enter Your Password Below</string>
-    <string name="confirmPasswordButtonStr">Confirm</string>
-
-    // Master's Strings
+    //activity_sign_in Strings
     <string name="sign_in_label">Sign In</string>
     <string name="email_hint">email</string>
     <string name="enter_password_label">Enter Password</string>
@@ -44,27 +31,16 @@
     <string name="sign_in_button">Sign In</string>
     <string name="password_hint1">password</string>
 
-    //Main Screen Strings
-    <string name="createTasklabelStr">Click the + to create a task!</string>
-    <string name="addSymbolButtonStr">+</string>
-    <string name="taskButtonOneStr">Task 1</string>
-    <string name="taskButtonTwoStr">Task 2</string>
-    <string name="taskButtonThreeStr">Task 3</string>
-    <string name="taskButtonFourStr">Task 4</string>
-    <string name="logOutButtonStr">Log Out</string>
-    <string name="testStatusChangeLabelStr">This will hopefully change</string>
-    <string name="testButtonChange">Change the text</string>
+    //activity_new_prob Strings
+    <string name="edit_text_task">Task</string>
+    <string name="edit_text_description">Description and Contact Information</string>
+    <string name="priorityLabelStr">Priority:</string>
 
 
-
-    //ChooseToHelp Strings
-    <string name="problemDescriptionLabelStr">Problem Description</string>
-    <string name="refugeeNameLabelStr">Clients name</string>
-    <string name="refugeeEmailLabelStr">Clients email</string>
-    <string name="refugeePhoneNumberLabelStr">Clients phone number</string>
-    <string name="longerProblemDescriptionLabelStr">Longer problem description</string>
-    <string name="exitButtonStr">Exit</string>
-    <string name="canHelpButtonStr">I can help!</string>
+    //Prob_item Strings
+    <string name="text_view_task">Title</string>
+    <string name="text_view_priority">1</string>
+    <string name="text_view_description">Description</string>
 
 
 </resources>

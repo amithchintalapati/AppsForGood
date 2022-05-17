@@ -14,7 +14,7 @@
         android:id="@+id/edit_text_task"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Task"
+        android:hint="@string/edit_text_task"
         android:inputType="text"
         android:textColor="@color/textColor"
         android:textColorHighlight="@color/textColor"
@@ -29,10 +29,11 @@
         android:textColorHint="@color/textColor" />
 
     <TextView
+        android:id="@+id/priorityLabelStr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Priority:"
+        android:text="@string/priorityLabelStr"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/textColor"
         android:textColorHighlight="@color/textColor"

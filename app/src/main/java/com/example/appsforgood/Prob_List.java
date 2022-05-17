@@ -31,6 +31,7 @@ public class Prob_List extends AppCompatActivity {
 
         FloatingActionButton buttonAddProb = findViewById(R.id.button_add_prob);
         buttonAddProb.setOnClickListener(new View.OnClickListener() {
+            //When the plus button is clicked, creates a pop-up screen that enables the user to create a task.
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Prob_List.this, NewProbActivity.class));

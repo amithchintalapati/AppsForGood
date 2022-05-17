@@ -49,7 +49,7 @@
         android:layout_marginStart="199dp"
         android:layout_marginTop="37dp"
         android:layout_marginEnd="198dp"
-        android:onClick="toPwScreen"
+        android:onClick="clickNext"
         android:text="@string/toSetPasswordButtonStr"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -133,7 +133,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="clickExit"
-        android:text="@string/exitButtonStr"
+        android:text="@string/exitButtonSignInStr"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

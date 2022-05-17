@@ -84,7 +84,7 @@ public class SignIn extends AppCompatActivity {
 
     }
 
-    //When the exit button is clicked, the user is brought back to the welcome page
+    //Once clicked, the exit button sends the user back to the welcome screen.
     public void clickExit(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Exit Button", Toast.LENGTH_LONG);
         toast.show();

@@ -137,7 +137,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="clickExit"
-        android:text="@string/exitButtonStr"
+        android:text="@string/exitButtonSignInStr"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
