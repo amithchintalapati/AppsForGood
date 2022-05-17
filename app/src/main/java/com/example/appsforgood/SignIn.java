@@ -32,6 +32,7 @@ public class SignIn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+    //Initializing the firebase and variables
         signInAuth = FirebaseAuth.getInstance();
 
         super.onCreate(savedInstanceState);
@@ -40,6 +41,9 @@ public class SignIn extends AppCompatActivity {
         password = (EditText)findViewById(R.id.editTextTextPassword);
         signInButton = (Button)findViewById(R.id.signInButtonStr);
 
+    /*When the sign in button is clicked, the "signIn" method is called with the entered username
+    [email] and password from their given text fields
+     */
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -47,6 +51,8 @@ public class SignIn extends AppCompatActivity {
             }
         });
     }
+
+    //the "signIn" method takes in two strings and uses them to create a firebase account
     private void signIn(String email, String password) {
         // [START sign_in_with_email]
         signInAuth.signInWithEmailAndPassword(email, password)
@@ -78,6 +84,7 @@ public class SignIn extends AppCompatActivity {
 
     }
 
+    //When the exit button is clicked, the user is brought back to the welcome page
     public void clickExit(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Exit Button", Toast.LENGTH_LONG);
         toast.show();

@@ -39,6 +39,9 @@ public class AccountActivity extends AppCompatActivity {
         password = (EditText)findViewById(R.id.editTextTextPassword2);
         signUp = (Button)findViewById(R.id.signUpWithButton);
 
+        /*Setting that when the sign in button is clicked, the method "onSignUpClick" is called
+        with the username [email] and password entered in the given fields by the user
+         */
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -65,6 +68,10 @@ public class AccountActivity extends AppCompatActivity {
 
     }
 
+    /*method onSignUpClick takes in two string objects and creates a firebase user with the
+    given attributes
+     */
+
     public void onSignUpClick(String inputUsername, String inputPassword){
             fbAuth.createUserWithEmailAndPassword(inputUsername, inputPassword)
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -88,7 +95,7 @@ public class AccountActivity extends AppCompatActivity {
             });
     }
 
-
+    //when you click the exit button, it takes you back to the welcome page
     public void clickExit(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Exit Button", Toast.LENGTH_LONG);
         toast.show();

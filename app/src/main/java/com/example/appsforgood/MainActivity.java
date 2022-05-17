@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-
+        //This was part of setting up the firebase to make sure a string can pass through
         // Write a message to the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
@@ -74,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
             String uid = user.getUid();
         }
     }
+
+    //When the sign up button is clicked, the user is brought to the sign up page
     public void clickSignUp(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Sign Up Button", Toast.LENGTH_LONG);
         toast.show();
@@ -82,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    //When the sign in button is clicked, the user is brought to the sign in page
     public void clickSignIn(View v) {
         Toast toast = Toast.makeText(getApplicationContext(), "Hello, you clicked the Sign In Button", Toast.LENGTH_LONG);
         toast.show();
