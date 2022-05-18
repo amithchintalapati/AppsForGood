@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
-import android.media.MediaRouter;
 import android.os.Bundle;
 import android.view.View;
 
@@ -19,11 +18,13 @@ import com.google.firebase.firestore.Query;
 
 public class Prob_List extends AppCompatActivity {
 
+    // Firestore was used because of its offline synchronization and easy integration with the database
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
-    private CollectionReference notebookRef = db.collection("Problems");
+    private CollectionReference problemsRef = db.collection("Problems");
 
     private ProblemAdapter adapter;
 
+    // Accesses the problem list activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,8 +41,9 @@ public class Prob_List extends AppCompatActivity {
         setUpRecyclerView();
     }
 
+    // Recycler view orders by priority so that problems of the highest priority are shown at the top
     private void setUpRecyclerView() {
-        Query query = notebookRef.orderBy("priority", Query.Direction.DESCENDING);
+        Query query = problemsRef.orderBy("priority", Query.Direction.DESCENDING);
         //Query query = db.collection("Problems");
 
         FirestoreRecyclerOptions<Problem> options = new FirestoreRecyclerOptions.Builder<Problem>()
@@ -55,6 +57,7 @@ public class Prob_List extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
 
+        // Users can delete problems by swiping left or right on them in the problem list
         new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(0,
                 ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
             @Override
