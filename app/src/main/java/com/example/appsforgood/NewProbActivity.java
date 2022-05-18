@@ -15,10 +15,13 @@ import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class NewProbActivity extends AppCompatActivity {
+    // Data fields from xml file
     private EditText editTextTask;
     private EditText editTextDescription;
     private NumberPicker numberPickerPriority;
+    private EditText editTextContactInformation;
 
+    // Accesses the New Problem xml file
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,11 +33,13 @@ public class NewProbActivity extends AppCompatActivity {
         editTextTask = findViewById(R.id.edit_text_task);
         editTextDescription = findViewById(R.id.edit_text_description);
         numberPickerPriority = findViewById(R.id.number_picker_priority);
+        editTextContactInformation = findViewById(R.id.edit_text_contact_information);
 
         numberPickerPriority.setMinValue(1);
         numberPickerPriority.setMaxValue(10);
     }
 
+    // Accesses the new problem menu with save bar from menu directory
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
@@ -42,6 +47,7 @@ public class NewProbActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    // Makes sure saveNote can be clicked
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch(item.getItemId()) {
@@ -53,16 +59,20 @@ public class NewProbActivity extends AppCompatActivity {
         }
     }
 
+    // Assigns all the values when the new problem is saved
     private void saveNote() {
         String task = editTextTask.getText().toString();
         String description = editTextDescription.getText().toString();
         int priority = numberPickerPriority.getValue();
+        String contactInformation = editTextContactInformation.getText().toString();
 
-        if(task.trim().isEmpty() || description.trim().isEmpty()) {
-            Toast.makeText(this, "Please insert a title and description", Toast.LENGTH_SHORT).show();
+        // Makes sure that the user didn't forget to assign any of the required fields
+        if(task.trim().isEmpty() || description.trim().isEmpty() || contactInformation.trim().isEmpty()) {
+            Toast.makeText(this, "Please insert a title, description, and contact information", Toast.LENGTH_SHORT).show();
             return;
         }
 
+        // Lets the user know that their action was received
         CollectionReference probRef = FirebaseFirestore.getInstance()
                 .collection("Problems");
         probRef.add(new Problem(task, description, priority));

@@ -21,11 +21,15 @@ public class ProblemAdapter extends FirestoreRecyclerAdapter<Problem, ProblemAda
 
     @Override
     protected void onBindViewHolder(@NonNull ProblemHolder holder, int position, @NonNull Problem model) {
+        // Sets all the values to the holder
         holder.textViewTask.setText(model.getTask());
         holder.textViewDescription.setText(model.getDescription());
         holder.textViewPriority.setText(String.valueOf(model.getPriority()));
+        holder.textViewContactInformation.setText(String.valueOf(model.getContactInformation()));
+
     }
 
+    // Accesses card xml to format all of the values
     @NonNull
     @Override
     public ProblemHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -38,10 +42,12 @@ public class ProblemAdapter extends FirestoreRecyclerAdapter<Problem, ProblemAda
         getSnapshots().getSnapshot(position).getReference().delete();
     }
 
+    // Tasks are set to the recycler view
     public class ProblemHolder extends RecyclerView.ViewHolder {
         TextView textViewTask;
         TextView textViewDescription;
         TextView textViewPriority;
+        TextView textViewContactInformation;
 
 
         public ProblemHolder(View itemView) {
@@ -49,6 +55,7 @@ public class ProblemAdapter extends FirestoreRecyclerAdapter<Problem, ProblemAda
             textViewTask = itemView.findViewById(R.id.text_view_task);
             textViewDescription = itemView.findViewById(R.id.text_view_description);
             textViewPriority = itemView.findViewById(R.id.text_view_priority);
+            textViewContactInformation = itemView.findViewById(R.id.text_view_contact_information);
 
         }
     }

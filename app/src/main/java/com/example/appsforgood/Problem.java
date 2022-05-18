@@ -1,39 +1,28 @@
 package com.example.appsforgood;
 
 public class Problem {
-	private Account person;
+	// Class variables for a problem
 	private String task;
 	private String description;
 	private int priority;
+	private String contactInformation;
 
+	// Empty constructor is necessary for implementation
 	public Problem(){
 
 	}
 
+	// Constructor assigns all necessary values to class variables
 	public Problem(String task, String description, int priority) {
 		this.task = task;
 		this.description = description;
 		this.priority = priority;
+		this.contactInformation = contactInformation;
 	}
-	
-	public void setAccount(Account person) {
-		this.person = person;
-	}
-	
-	public Account getAccount() {
-		return person;
-	}
-	
-	public void setTask(String task) {
-		this.task = task;
-	}
-	
+
+	// Getters
 	public String getTask() {
 		return task;
-	}
-	
-	public void setPriority(int priority) {
-		this.priority = priority;
 	}
 	
 	public int getPriority() {
@@ -44,7 +33,7 @@ public class Problem {
 		return description;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public String getContactInformation() {
+		return contactInformation;
 	}
 }

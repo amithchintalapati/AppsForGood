@@ -24,8 +24,16 @@
         android:id="@+id/edit_text_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Description and Contact Information"
+        android:hint="Description"
         android:inputType="textMultiLine"
+        android:textColorHint="@color/textColor" />
+
+    <EditText
+        android:id="@+id/edit_text_contact_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Information"
+        android:inputType="text"
         android:textColorHint="@color/textColor" />
 
     <TextView
