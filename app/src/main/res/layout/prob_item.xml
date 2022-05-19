@@ -56,9 +56,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/text_view_description"
-            android:layout_toRightOf="@id/text_view_contact_information_label"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/text_view_contact_information_label"
             android:text="contact information" />
 
     </RelativeLayout>

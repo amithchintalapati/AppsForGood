@@ -13,7 +13,7 @@ public class Problem {
 	}
 
 	// Constructor assigns all necessary values to class variables
-	public Problem(String task, String description, int priority) {
+	public Problem(String task, String description, int priority, String contactInformation) {
 		this.task = task;
 		this.description = description;
 		this.priority = priority;
