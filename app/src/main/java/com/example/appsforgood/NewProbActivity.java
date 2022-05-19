@@ -75,7 +75,7 @@ public class NewProbActivity extends AppCompatActivity {
         // Lets the user know that their action was received
         CollectionReference probRef = FirebaseFirestore.getInstance()
                 .collection("Problems");
-        probRef.add(new Problem(task, description, priority));
+        probRef.add(new Problem(task, description, priority, contactInformation));
         Toast.makeText(this, "Problem added", Toast.LENGTH_SHORT).show();
         finish();
     }
